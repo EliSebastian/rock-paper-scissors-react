@@ -1,9 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <>
-      <h1>Rock Paper Scissors </h1>
-    </>
-  )
+    <div className="w-full h-full flex bg-radient-circle-t from-[#1f3756] to-[#141539]">
+      <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;
